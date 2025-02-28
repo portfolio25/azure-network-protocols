@@ -33,7 +33,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In configuring a Network Security Group (NSG) and inspecting traffic between Azure Virtual Machines (VMs), the first action is to create and deploy the VMs, followed by setting up an NSG to manage network traffic. The NSG is associated with either the VM’s network interface or subnet, and specific inbound and outbound traffic rules are defined to control communication. To inspect traffic, Azure Network Watcher is enabled, allowing the use of tools like Traffic Analytics and packet capture. These tools help monitor and analyze traffic flow between VMs.
 </p>
 <br />
 
